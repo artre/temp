@@ -1,0 +1,76 @@
+@import '../node_modules/nib'
+@import 'styl/variables'
+@import 'styl/mixins'
+@import 'styl/buttons'
+
+
+
+// Learn what is "typographics" and "nib" and what plugins are better. can u choose different plugins.
+
+add(a, b, c = a)
+	a + b + c
+	
+marg(a, b)
+	return a a/2 a*5 a*b
+	
+// rupture.scale = 0 400px 600px 800px 1050px 1800px
+// rupture.scale-names = 'xs' 's' 'm' 'l' 'xl' 'hd'
+// rupture.anti-overlap = 1px
+
+body 
+	background-color primery
+	color colorred
+	border 1px solid @color
+	margin-left add(1px,2)
+	color yellow
+	main
+		background rgba(orange,0.6)
+		border solid 1px @color
+		border-radius(15px)
+		margin-top ceil(4.6px)
+.artem 
+	margin marg(10px, 2)
+	
+.artem:before 
+	margin 0
+
+.red-color 
+	color green
+	
+.example 
+	top 3px
+	transition 3s ease	
+	border-radius 25px
+	test(10)
+
+.dog
+	fixed: bottom right
+	height 300px
+	width 50px
+	
+	clearfix()
+
+// Using nib position http://nibstyl.us/docs/#position
+// Using nib responsive images http://nibstyl.us/docs/#responsive
+.main-logo 
+	fixed top 50px right 50px
+	image '../images/all-pages/seepolls-logo.png' 300px 73px
+	height 73px
+	width 300px
+
+// Using nib position, ellipsis, border, size, gradient
+.nib-postion
+	size 80px 100px
+	relative top 50px left 100px right 300px bottom 10px
+	overflow ellipsis
+	border red
+	transition 1s ease
+	background linear-gradient(top, white, black)
+	
+// Using nib shadow stroke	
+.some-test-text	
+	shadow-stroke(red)
+	color white
+	font-size 35px
+	font-weight normal
+	

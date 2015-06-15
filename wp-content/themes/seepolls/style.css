@@ -1,0 +1,24 @@
+/*
+Theme Name: Seepolls
+Theme URI: http://underscores.me/
+Author: Artem Kovalyk
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: seepolls
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+a
+Seepolls is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic);
+@import url("css/normalize.min.css");
+@import url("css/style.css");
